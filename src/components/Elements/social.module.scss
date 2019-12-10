@@ -1,0 +1,24 @@
+.SocialLinks {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+
+    span {
+        svg {
+
+            color: #000;
+            transition: all 0.5s ease;
+        }
+
+        &:hover {
+            svg {
+                transform: scale(1.1);
+                color: #fff;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,10 @@
+.CardSection__wrapper {
+    margin: 40px auto;
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    justify-content: center;
+}

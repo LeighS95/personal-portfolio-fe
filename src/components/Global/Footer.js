@@ -17,9 +17,7 @@ const Footer = () => {
                 <div className={styles.Footer__Col_Center}>
                     <ul className={styles.Footer__Links}>
                         <li className={styles.Footer__List_Title}>Social Links</li>
-                        <li className={styles.Footer__List_Item}>GitHub</li>
-                        <li className={styles.Footer__List_Item}>Codepen</li>
-                        <li className={styles.Footer__List_Item}>Linkedin</li>
+                        <li className={styles.Footer__List_Links}></li>
                     </ul>
                 </div>
                 <div className={styles.Footer__Col_Right}>

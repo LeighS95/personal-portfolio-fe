@@ -1,0 +1,39 @@
+//Breakpoints
+
+$mob-screen: 400px; //max-width
+$sml-screen: 500px; //max-width
+$med-screen: 768px; //max-width
+$tablet: 1024px; //max-width
+$desktop: 1300px; //max-width
+$lrg-screen: 1301px; //use min-width
+
+
+//backgrounds
+
+$main-bg: #f4f4f4;
+$main-fg: #000;
+
+
+//Font Colours
+
+@function changeColor($color) {
+    @if(lightness($color) > 50) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}
+
+
+//Font Family
+$main-ff: 'Roboto', 'sans-serif';
+
+
+//Font size
+
+$xxl-text: 6.854rem;
+$xl-text: 4.236rem;
+$lrg-text: 2.618rem;
+$med-text: 1.618rem;
+$std-text: 1rem;
+$sml-text: 0.618rem;
