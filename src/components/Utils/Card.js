@@ -12,10 +12,16 @@ const Card = props => {
             <div className={styles.Card__Content}>
                 <h3 className={styles.Card__Content_Title}>{title}</h3>
                 <p className={styles.Card__Content_Text}>{text}</p>
-                <div className={styles.Buttons}>
-                    <a href={projectUrl}>View Project</a>
-                    <a href={gitUrl}>View Github</a>
-                </div>
+                {gitUrl ? (
+                    <div className={styles.Buttons}>
+                        <a href={projectUrl}>View Project</a>
+                        <a href={gitUrl}>View Github</a>
+                    </div>
+                ) : (
+                    <div className={styles.Buttons__Center}>
+                        <a href={projectUrl}>View Project</a>
+                    </div>
+                )}
             </div>
         </div>
     )

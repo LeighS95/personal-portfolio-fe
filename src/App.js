@@ -31,11 +31,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
-          <Header />
-          <RouteList />
-          <Footer />
-        </Router>
+        <React.Fragment>
+          <Router>
+            <Header />
+            <RouteList />
+            <Footer />
+          </Router>
+        </React.Fragment>
       </div>
     );
   }

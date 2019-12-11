@@ -6,8 +6,8 @@ import styles from './social.module.scss';
 const SocialLinksBlock = props => {
     return (
         <div className={styles.SocialLinks}>
-            <span><a href="##" target="_blank"><FontAwesomeIcon icon={faGithub} size={props.size} /></a></span>
-            <span><a href="##" target="_blank"><FontAwesomeIcon icon={faLinkedin}  size={props.size} /></a></span>
+            <span><a href="https://github.com/LeighS95" target="_blank"><FontAwesomeIcon icon={faGithub} size={props.size} /></a></span>
+            <span><a href="https://www.linkedin.com/in/stephen-leigh-8a6519184/" target="_blank"><FontAwesomeIcon icon={faLinkedin}  size={props.size} /></a></span>
             <span><a href="##" target="_blank"><FontAwesomeIcon icon={faCodepen}  size={props.size} /></a></span>
         </div>
     )

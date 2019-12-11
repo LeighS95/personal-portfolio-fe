@@ -1,0 +1,30 @@
+[
+    {
+        "lang": "cpp",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmgIz9Ug-MVzBQJMcgXedOXTqHWGmbSu5pPDivz8hrfo_GE0HZEA&s",
+        "title": "c projects",
+        "text": "Projects made with C++. From console applications to desktop",
+        "projectUrl": "/projects/cpp"
+    },
+    {
+        "lang": "csharp",
+        "image": "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
+        "title": "c# projects",
+        "text": "Projects made with C#. From console applications to full stack web applications with .NET Core",
+        "projectUrl": "/projects/csharp"
+    },
+    {
+        "lang": "javascript",
+        "image": "https://live.staticflickr.com/3701/19224697601_6b600f21eb.jpg",
+        "title": "js projects",
+        "text": "Front-end and backend web development projects using javascript in a variety of difference applications",
+        "projectUrl": "/projects/js"
+    },
+    {
+        "lang": "python",
+        "image": "https://banner2.cleanpng.com/20180825/box/kisspng-python-programming-language-computer-programming-c-hanuman-png-transparent-images-free-download-clip-5b814ed3233799.3867698615352009791443.jpg",
+        "title": "python projects",
+        "text": "A variety of projects created using python",
+        "projectUrl": "/projects/python"
+    }
+]
