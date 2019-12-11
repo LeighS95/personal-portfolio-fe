@@ -1,6 +1,8 @@
 [
     {
         "id": "1",
+        "section": "projects",
+        "lang": "c++",
         "image": "https://via.placeholder.com/150",
         "title": "Test",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Dui ut ornare lectus sit amet est placerat. Egestas pretium aenean pharetra magna ac placerat. Id nibh tortor id aliquet lectus proin.",
@@ -9,6 +11,8 @@
     },
     {
         "id": "2",
+        "section": "projects",
+        "lang": "Javascript",
         "image": "https://via.placeholder.com/150",
         "title": "Test 2",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Dui ut ornare lectus sit amet est placerat. Egestas pretium aenean pharetra magna ac placerat. Id nibh tortor id aliquet lectus proin.",
@@ -17,6 +21,8 @@
     },
     {
         "id": "3",
+        "section": "projects",
+        "lang": "c#",
         "image": "https://via.placeholder.com/150",
         "title": "Test 2",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Dui ut ornare lectus sit amet est placerat. Egestas pretium aenean pharetra magna ac placerat. Id nibh tortor id aliquet lectus proin.",
@@ -25,6 +31,8 @@
     },
     {
         "id": "4",
+        "section": "projects",
+        "lang": "Full Stack",
         "image": "https://via.placeholder.com/150",
         "title": "Test 2",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Dui ut ornare lectus sit amet est placerat. Egestas pretium aenean pharetra magna ac placerat. Id nibh tortor id aliquet lectus proin.",
