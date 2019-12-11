@@ -20,7 +20,7 @@ class App extends Component {
   }
 
   checkViewport = () => {
-    if(window.innerWidth >= 768 && window.innerWidth <= 1024 ) {
+    if(window.innerWidth >= 768 && window.innerWidth <= 1025 ) {
       this.setState({ isTablet: true})
     }
     if(window.innerWidth < 768) {
@@ -29,11 +29,12 @@ class App extends Component {
   }
 
   render() {
+    const { isMobile, isTablet } = this.state;
     return (
       <div className="App">
         <React.Fragment>
           <Router>
-            <Header />
+            <Header isTablet={isTablet} isMobile={isMobile} />
             <RouteList />
             <Footer />
           </Router>
