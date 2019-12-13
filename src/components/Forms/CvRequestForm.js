@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../Utils/Button';
 import styles from './messageform.module.scss';
 
 class CvRequestForm extends Component {
@@ -32,7 +33,7 @@ class CvRequestForm extends Component {
                     <label htmlFor="email">Email Address</label>
                     <input name="email" type="email" onChange={this.handleChange} required />
                 </form>
-                <button className={styles.Btn__Submit} type="submit">Request CV</button>
+                <Button text="Request CV"></Button>
             </div>
         )
     }

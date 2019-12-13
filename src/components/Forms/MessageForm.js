@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../Utils/Button';
 
 class MessageForm extends Component {
     constructor(props){
@@ -33,7 +34,7 @@ class MessageForm extends Component {
                     <label htmlFor="message">Enter your message</label>
                     <textarea name="message"></textarea>
                 </form>
-                <button type="submit">Submit</button>
+                <Button type="submit" text="Submit"></Button>
             </React.Fragment>
         )
     }

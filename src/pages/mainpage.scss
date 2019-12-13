@@ -53,6 +53,7 @@
 
 .form__split {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -71,5 +72,11 @@
             color: #fff;
             background: #000;
         }
+    }
+}
+
+@media (min-width: $med-screen) {
+    .form__split {
+        flex-direction: row;
     }
 }
