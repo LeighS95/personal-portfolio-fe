@@ -50,3 +50,26 @@
         text-decoration: underline;
     }
 }
+
+.form__split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Btn {
+        margin: 32px auto 0 auto;
+        height: 40px;
+        width: 150px;
+        border: 2px solid #000;
+        border-radius: 4px;
+        background: #fff;
+        font-size: $std-text;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    
+        &:hover {
+            color: #fff;
+            background: #000;
+        }
+    }
+}

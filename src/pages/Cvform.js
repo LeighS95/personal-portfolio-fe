@@ -10,11 +10,11 @@ const Contact = () => {
             <h1 className="Page__Heading">How would you like to view my CV?</h1>
             <p className="Page__Heading_Subtext">View in browser or have it sent to your email?</p>
 
-            <div>
+            <div className="form__split">
                 <CvRequestForm />
                 <div>
                     <h2>OR view as a PDF?</h2>
-                    <button>View CV</button>
+                    <button className="Btn">View CV</button>
                 </div>
             </div>
         </div>

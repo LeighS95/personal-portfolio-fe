@@ -39,7 +39,9 @@ class Header extends Component {
                         </li>
                         <li className={styles.Navbar__List_Item}><Link to="/about" onClick={this.toggleMenu}>About Me</Link></li>
                         <li className={styles.Navbar__List_Item}>Projects</li>
-                        <li className={styles.Navbar__List_Item}>Request CV</li>
+                        <li className={styles.Navbar__List_Item}>
+                            <Link to="/request-cv" onClick={this.toggleMenu}>CV</Link>
+                        </li>
                         <li className={styles.Navbar__List_Item}>
                             <Link to="/contact" onClick={this.toggleMenu}>Contact</Link>
                         </li>
