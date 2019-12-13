@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import SocialLinksBlock from '../Elements/SocialLinksBlock';
 import styles from './header.module.scss';
@@ -33,11 +34,15 @@ class Header extends Component {
                 </div>
                 <nav className={cx(styles.Navbar, {'OPEN__NAV': isOpen})}>
                     <ul className={styles.Navbar__List}>
-                        <li className={styles.Navbar__List_Item}>About Me</li>
+                        <li className={styles.Navbar__List_Item}>
+                            <Link to="/" onClick={this.toggleMenu}>Home</Link>
+                        </li>
+                        <li className={styles.Navbar__List_Item}><Link to="/about" onClick={this.toggleMenu}>About Me</Link></li>
                         <li className={styles.Navbar__List_Item}>Projects</li>
-                        <li className={styles.Navbar__List_Item}>Skills</li>
                         <li className={styles.Navbar__List_Item}>Request CV</li>
-                        <li className={styles.Navbar__List_Item}>Contact</li>
+                        <li className={styles.Navbar__List_Item}>
+                            <Link to="/contact" onClick={this.toggleMenu}>Contact</Link>
+                        </li>
                     </ul>
                     {isTablet || isMobile ? (
                         <SocialLinksBlock size="2x" />

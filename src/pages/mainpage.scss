@@ -1,0 +1,52 @@
+@import '../GlobalStyles/variables.scss';
+
+.MainPage__Wrapper {
+    position: relative;
+    width: 100%;
+    margin: 80px auto;
+    max-width: 1024px;
+}
+
+.Page__Heading {
+    font-size: $lrg-text;
+    text-align: center;
+    letter-spacing: 1px;
+
+    &_Subtext {
+        margin: 0 1.6rem;
+        line-height: 24px;
+        font-weight: 300;
+        font-size: $med-text;
+        text-align: center;
+    }
+}
+
+.Main {
+    padding: 40px;
+    background-color: #333;
+    color: changeColor(#333);
+}
+
+.skills {
+    text-align: center;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: 4px 0;
+        text-align: left;
+    }
+
+    .title {
+        margin-bottom: 16px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

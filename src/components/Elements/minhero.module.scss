@@ -1,0 +1,53 @@
+@import '../../GlobalStyles/variables.scss';
+
+.Minihero__Container {
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
+
+.Minihero__Img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: no-repeat center center/cover;
+}
+
+.Minihero__Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    &_Title {
+        margin: 0;
+        padding: 0;
+        font-family: $main-ff;
+        font-size: $lrg-text;
+        white-space: nowrap;
+        color: changeColor(rgba(0,0,0,0.4));
+    }
+    &_Text {
+        margin: 10px 0 0 0;
+        font-family: $main-ff;
+        font-size: $std-text;
+        white-space: nowrap;
+        color: changeColor(rgba(0,0,0,0.4));
+        text-align: end;
+    }
+    
+}
+
+@media (min-width: $med-screen) {
+    .Minihero__Content {
+        &_Title {
+            font-size: $xxl-text;
+        }
+        &_Text {
+            font-size: $med-text;
+        }
+    }
+}
